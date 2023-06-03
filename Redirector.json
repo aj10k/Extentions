@@ -1,0 +1,40 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2023-06-03T12:14:42.248Z",
+    "redirects": [
+        {
+            "description": "ytlocal",
+            "exampleUrl": "https://www.youtube.com/some-word-that-matches-wildcard",
+            "exampleResult": "http://localhost:8080/https://www.youtube.com/some-word-that-matches-wildcard",
+            "error": null,
+            "includePattern": "https://www.youtube.com/*",
+            "excludePattern": "",
+            "patternDesc": "Any word after example.com leads to google search for that word.",
+            "redirectUrl": "http://localhost:8080/https://www.youtube.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "reddit",
+            "exampleUrl": "https://www.reddit.com/some-word-that-matches-wildcard",
+            "exampleResult": "https://libreddit.domain.glass/some-word-that-matches-wildcard",
+            "error": null,
+            "includePattern": "https://www.reddit.com/*",
+            "excludePattern": "",
+            "patternDesc": "Any word after example.com leads to google search for that word.",
+            "redirectUrl": "https://libreddit.domain.glass/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
