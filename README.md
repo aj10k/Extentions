@@ -9,6 +9,7 @@
    - Skip sponsorships, subscription begging and more on YouTube videos. Report sponso...
 - [Unhook - Remove YouTube Recommended Videos](https://addons.mozilla.org/en-CA/firefox/addon/youtube-recommended-videos/)
    - Hide YouTube related videos, comments, shorts tab, suggestions wall, homepage reco...
+- [Simple YouTube Age Restriction Bypass](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/)
 
 ## Other
 - [Bypass Paywalls](https://github.com/iamadamdev/bypass-paywalls-chrome)
